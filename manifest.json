@@ -1,0 +1,17 @@
+{
+  "manifest_version": 3,
+  "name": "Dictionary",
+  "version": "0.0.1",
+  "description": "Double tap on words to get meaning!!!",
+  "background": {
+    "service_worker": "background.js"
+  },
+  "permissions": ["activeTab"],
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": "src/icon-128.png"
+  },
+  "icons": {
+    "128": "src/icon-128.png"
+  }
+}
